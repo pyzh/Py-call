@@ -25,7 +25,7 @@
 
 
 
-(library (py-eval py-eval)
+(library (py-call py-call)
     (export
         py-init
         py-fin
@@ -44,7 +44,7 @@
         (enchantment py call))
 
 
-    (define py-eval
+    (define py-call
         (lambda (lst)
             (py-init)
             (let l ((lst lst))

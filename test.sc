@@ -1,9 +1,9 @@
 (import (enchantment py ffi)
-        (py-eval py-eval))
+        (py-call py-call))
 
 
 (define x '(1 2 3 4 5 6 7 8))
-(py-eval 
+(py-call 
   '((import numpy as np)
     (get np array)
     (get np ndarray)
@@ -22,7 +22,7 @@
 
 
 
-(py-eval 
+(py-call 
   '((import numpy as np)
     (get np array)
     (get np ndarray)
@@ -44,7 +44,7 @@
 
 
 
-(py-eval 
+(py-call 
   '((import numpy as np)
     (get np array)
     (get np ndarray)
@@ -61,7 +61,7 @@
 
 
 
-(py-eval 
+(py-call 
   '((import numpy as np)
     (get np array)
     (get np ndarray)
