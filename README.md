@@ -7,6 +7,8 @@ Py-call attempts to mix the Scheme procedures with the Python functions, which c
 
 ### Call foreign language libraries with a easily and lispist syntax: ###
 
+![image](https://github.com/guenchi/Py-call/blob/master/py-call.png)
+
 ```
 (define lst '(1 2 3 4 5 6 7 8))
 (py-call 
