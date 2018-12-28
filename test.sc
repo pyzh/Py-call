@@ -1,4 +1,4 @@
-(import (enchantment py ffi)
+(import (darkart py ffi)
         (py-call py-call))
 
 
